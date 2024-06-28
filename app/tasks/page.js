@@ -1,9 +1,13 @@
-const tasksPage = () => {
+import TaskForm from "@/component/TaskForm"
+import TaskList from "@/component/TaskList"
+
+const TaskPage = () => {
     return (
-        <div>
-            <h1 className="text-7xl">tasksPage</h1>
+        <div className="max-x-lg">
+            <TaskForm />
+            <TaskList />
         </div>
     )
 }
 
-export default tasksPage
+export default TaskPage
